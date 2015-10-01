@@ -20,7 +20,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"集中练习单元";
+    
     _dataArray = [[NSMutableArray alloc]init];
     //在此处添加列表数据
     [_dataArray addObject:@"BlockPlanViewController"];
@@ -29,9 +30,6 @@
     _titleArray = [[NSMutableArray alloc]init];
     //在此处添加列表标题
     [_titleArray addObject:@"块"];
-    
-    
-    
     
     
     [self creatTableView];
